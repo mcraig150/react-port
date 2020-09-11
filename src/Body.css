@@ -1,0 +1,22 @@
+Body {
+    background-image: url('./background.jpg');
+    background-size: auto;
+    background-size: 100vw 100vw;
+    background-repeat: no-repeat;
+}
+.Body__right {
+    color: white;
+    float: right;
+    margin: 25px;
+    margin-right: 300px;
+    margin-top: 200px;
+}
+
+.Body__right > h1 {
+    font-size: 60px;
+}
+
+.Body__right > h4 {
+    font-size: 32px;
+    margin-left: 30px;
+}

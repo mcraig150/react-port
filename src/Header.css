@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+  background-color: whitesmoke;
+}
+
+.header__left {
+    margin: 20px;
+}
+
+.header__left > a {
+    text-decoration: none;
+    color: rgb(49, 49, 49);
+}
+
+.header__right {
+    margin: 20px;
+}
+
+.header__right > a {
+    margin: 10px;
+    outline: none;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
