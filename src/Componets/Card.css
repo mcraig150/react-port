@@ -1,0 +1,26 @@
+  
+.Project {
+    width: 400px;
+    height: 150px;
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 25px;
+    background-color: whitesmoke;
+    transition: transfrom 175ms ease-in;
+}
+
+.Project:hover {
+    transform: scale(1.009);
+}
+
+
+.Project__text {
+    padding: 5px;
+}
+
+.Project__link {
+    padding: 5px;
+}
